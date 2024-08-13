@@ -1,0 +1,80 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulário elaborado</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>Formulário</h1>
+
+		<form action="" method="">
+
+			<fieldset>
+
+			<legend>Dados Pessoais</legend>
+			<label for="nome" >Nome: </label>
+			<input type="text" id="nome" placeholder="Insira seu nome" required/>
+			<br>
+			<label for="endereço">Endereço: </label>
+			<input id="endereço" type="endereço" />
+			<br>
+			<label for="cidade">Cidade: </label>
+			<input id="cidade" type="cidade"  />
+			<br>
+			<label for="estado">Estado:</label>
+			<select id="estado">
+				<option>São Paulo</option>
+				<option>Maranhão</option>
+				<option>Bahia</option>
+				<option>Outros</option>
+			</select>
+			</fieldset>
+			<br>
+				
+			<fieldset>
+				<legend>Dados Profissionais</legend>
+				Natureza do Cargo
+				<br>
+				<input type="radio" id="gerência" name="gerência"/>
+				<label for="gerência">Gerência</label>
+
+				<input type="radio" id="Financeiro" name="Financeiro"/>
+				<label for="Financeiro">Financeiro</label>
+
+				<input type="radio" id="Recepção" name="Recepção"/>
+				<label for="Recepção">Recepção</label>
+
+				<input type="radio" id="Administrativo" name="Administrativo"/>
+				<label for="Administrativo">Administrativo</label>
+
+                <input type="radio" id="Jurídico" name="Jurídico"/>
+				<label for="Jurídico">Jurídico</label>
+
+				<br>
+
+				<legend>Área de Interesse</legend>
+				<input type="checkbox" id="Computação"/>
+				<label for="Computação">Computação</label>
+				<input type="checkbox" id="Biologia"/>
+				<label for="Biologia">Biologia</label>
+				<input type="checkbox" id="Meio Ambiente"/>
+				<label for="Meio Ambiente">Meio Ambiente</label>
+				<input type="checkbox" id="Engenharia"/>
+				<label for="Engenharia">Engenharia</label>
+				<input type="checkbox" id="História"/>
+				<label for="História">História</label>
+				<br>
+		
+				<label for="info">Mini - Curriculo: </label>
+				<textarea id="info"></textarea>
+			</fieldset>
+			<br>
+			
+			<input type="reset" value="Enviar "/>
+			<input type="reset" value="Limpar"/>
+			
+		</form>
+	</body>
+</html>

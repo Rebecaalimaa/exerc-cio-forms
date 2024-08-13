@@ -1,0 +1,86 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Aula 03</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO
+		<br>
+		<form action="" method="">
+			<!-- TAG Label etiqueta para o input 
+			       for => identifica o input que pertencer a label
+			-->
+			<label for="login">login:</label>
+			<input type="text" id="login" placeholder="Insira seu login" required/>
+			<br>
+
+			<label for="senha">senha:</label>
+			<input type="text" id="senha" placeholder="Insira sua senha" required/>
+			<br>
+
+			<label for="status">status:</label>
+			<select id="status"> 
+				<option>Inativo</option>
+				<option>Ativo</option>
+	
+			<form action=""nethod= "">
+			<select>
+			<fieldset>
+			    <legend>Tipo</legend>
+				<input type="radio" id="Técnico" name="tipo" />
+				<label for="Técnico">Técnico</label>
+				
+				<input type="radio" id="Professor" name="tipo"/>
+				<label for="Professor">Professor</label>
+				
+				<input type="radio" id="Aluno" name="tipo"/>
+				<label for="Aluno">Aluno</label>
+				
+			</select>
+			</fieldset>
+			<br>
+
+			<label for="datadecriaçãço">data criação:</label>
+			<input type="text" id="data de criação" placeholder="Insira sua data de criação" required/>
+			<br>
+
+			<fieldset>
+			    <legend>Perfil</legend>
+				<input type="radio" id="convidado" name="tipo" />
+				<label for="convidado">convidado</label>
+				
+				<input type="radio" id="administrador" name="tipo"/>
+				<label for="administrador">Professor</label>
+				
+			</fieldset>
+
+			<label for="obs">Observações:</label>
+			<input type="text" id="obs" placeholder="Insira suas Observações" required/>
+			<br>
+		
+				<input type="checkbox" id="Compras"/>
+				<label for="Compras">Compras</label>
+				<input type="checkbox" id="Biblioteca"/>
+				<label for="Biblioteca">Biblioteca</label>
+				<input type="checkbox" id="Acadêmico"/>
+				<label for="Acadêmico">Acadêmico</label>
+				
+			<br>
+			Modulos
+			<br>
+			
+			    <input type="checkbox" id="Documentação"/>
+				<label for="Documentação">Documentação</label>
+				<input type="checkbox" id="Recursos Humanos"/>
+				<label for="Recursos Humanos">Recursos Humanos</label>
+			<br>
+
+			<input type="reset" value="Cadastrar"/>
+			<input type="reset" value="Excluir"/>
+			
+		</form>
+	</body>
+</html>
